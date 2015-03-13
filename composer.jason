@@ -1,0 +1,21 @@
+{
+    "name": "kkruger/yii2-article-manager",
+    "description": "A small extension for Yii2 to create, store and display articles",
+    "type": "yii2-extension",
+    "keywords": ["simple article management by category"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Klaus Kruger",
+            "email": "kkruger17@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "kkruger\\article-manager\\": ""
+        }
+    }
+}
